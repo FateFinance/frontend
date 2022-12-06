@@ -1,0 +1,114 @@
+.vaultCard {
+    margin: 100px 50px 50px;
+    min-width: 350px;
+    min-height: 450px;
+    padding : 30px;
+    color: #ecf1f0;
+    border: 1px solid #fff;
+    background: linear-gradient(180deg, #510971 0%, #910584 100%);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.cardLogo{
+    order: 1;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo{
+    width: 46px;
+    height: 46px;
+}
+
+.dataCustomer{
+
+    order: 2;
+    border-top: 2px solid #fff;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button_tvl_odds{
+    order: 3;
+    border-top: 2px solid #fff;display: flex;
+    width: 100%;
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.enterLotteryDiv{
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    font-weight: 800;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: purple;
+    font-size: 1rem;
+    z-index: 10;
+}
+
+.win_deposit_column, .draw_interest_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardTitle{
+    font-size: 16px;
+}
+
+.cardNumbers{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.win, .draw{
+    order: 1;
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deposit, .interest{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.winNumber, .interestNumber{
+    color: #FFD700;
+}
+
+.vaultTvl, .vaultOdds{
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+

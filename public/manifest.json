@@ -1,0 +1,15 @@
+{
+  "short_name": "Fate Finance",
+  "name": "Fate Finance Website, start earning yield and maybe win some prizes !",
+  "icons": [
+    {
+      "src": "logoFateFinance.svg",
+      "type": "image/svg",
+      "sizes": "42x46"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

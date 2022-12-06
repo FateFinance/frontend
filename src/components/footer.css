@@ -1,0 +1,55 @@
+
+.footer {
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 600;
+    display: flex;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    order: 3;
+    align-items: center;
+    background-image: linear-gradient(0deg, #11011E 80%, transparent 0%);
+    position : relative;
+    padding-top: 40px;
+}
+
+.img_logo_footer{
+    height: 42px;
+}
+
+.guild_logo{
+    width:40px;
+    height:40px;
+}
+
+.icon {
+    color: #ecf1f0;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    display: flex;
+    width: 100px;
+    height: 150px;
+}
+
+.firstIcon{
+    margin-left: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-logo{
+        display: none;
+    }
+
+    .icon{
+        margin : 0 ;
+    }
+}
+
+
+
+
+
+
+

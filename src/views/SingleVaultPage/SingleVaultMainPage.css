@@ -1,0 +1,75 @@
+.SingleVaultMainPage{
+    flex-grow: 1;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vaultStatistics{
+    order: 1;
+
+    margin: 50px 30px 50px;
+    min-width: 400px;
+    max-width: 100%;
+
+    min-height: 220px;
+    max-height: 300px;
+    padding: 30px;
+
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+
+    background: initial;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.luckyMakingMoney{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logoFate{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.titleVaults{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.vaultInfos{
+    order: 2;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.vaultLogo{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 550px) {
+
+    .vaultStatistics{
+        min-width: 250px;
+        max-width: 100%;
+        min-height: 400px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+}

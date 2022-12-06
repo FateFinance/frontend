@@ -1,0 +1,199 @@
+.SingleVaultCard {
+    min-width: 300px;
+    min-height: 450px;
+    padding : 30px;
+    color: #ecf1f0;
+    border: 1px solid #fff;
+    background: linear-gradient(180deg, #510971 0%, #910584 100%);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    order: 2;
+}
+
+.vaultName{
+    font-size: 1.7rem;
+}
+
+.dataVault{
+    order: 1;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.separator{
+    border-top: 2px solid #fff;
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.winnersAndOdds{
+    order: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.alignLeft{
+    align-self: flex-start;
+}
+
+.alignRight{
+    align-self: flex-end;
+}
+
+.singleCardTitle{
+    font-size: 0.8rem;
+}
+
+.singleCardNumber{
+    font-weight: 700;
+    font-size: 20px;
+    color: darkseagreen;
+}
+
+.winnersAndPrize{
+    font-size: 1.3rem;
+}
+
+.vaultOdds{
+    font-size: 0.9rem;
+}
+
+.depositDiv{
+    order: 3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.depositAreaTitle{
+    align-self: flex-start;
+    font-weight: 700;
+}
+
+.tokensToDepositDiv{
+    width: 100%;
+    margin-top: 10px;
+    background-color: lightslategray;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoToken{
+    height: 35px;
+    width: 35px;
+    margin-left: 30px;
+}
+
+.numberOfTokensToDeposit, .numberOfTokensToWithdraw{
+    background: inherit;
+    width: 100%;
+    margin-left: 20px;
+    border: none;
+    color: white ;
+    background-image: none;
+    animation-name: mui-auto-fill-cancel;
+    background-color: initial;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.input::-webkit-input-placeholder {
+    color: white ;
+    font-size: 1.2rem;
+}
+
+.input::-moz-placeholder {
+    color: white ;
+    font-size: 1.2rem;
+}
+
+.input:-ms-input-placeholder {
+    color: white ;
+    font-size: 1.2rem;
+}
+
+.maxTokensToDeposit{
+    background: none;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-left: 20px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.buttonDeposit{
+    width: 100%;
+    margin-top: 15px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: none;
+    justify-self: center;
+    height: 50px;
+    color: rebeccapurple;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.fairnessFeeText{
+    margin-top: 20px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.withdrawDiv{
+    order: 5;
+    display: flex;
+    flex-direction: column;
+    border-bottom:  2px solid #fff;;
+}
+
+.depositedTokensStats{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.depositedTokensStatsLeft, .depositedTokensStatsRight{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.currentDepositedStats{
+    margin-bottom: 10px;
+}
+
+/* MOBILE */
+@media screen and (max-width: 550px) {
+
+    .SingleVaultCard{
+        width: 80%;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,162 @@
+.header, .navbar-menu {
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+    left: 0;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    order: 1;
+}
+
+.links{
+    margin-left: 65px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.img_logo {
+    order: 1;
+    width: 42px;
+    height: 84px;
+}
+
+.title-logo {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 1rem;
+    order: 2;
+}
+
+.title-header, .logo {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    color: white;
+}
+
+.links {
+    padding-left: 50px;
+    padding-top: 20px;
+    min-width: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.button-connect-wallet {
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    background: linear-gradient(180deg, #510971 0%, #910584 100%);
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+}
+
+/*****************************************************
+                 NAV BAR START
+*****************************************************/
+
+
+.nav-menu-select {
+    margin: 0;
+    text-align: right;
+    height: inherit;
+}
+.nav-hamburger{
+    display: inline-block;
+    padding: 13px;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1000px) {
+    .nav-menu-select{
+        display: none;
+    }
+    .links{
+        display: flex !important;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 1000px) {
+
+    .button-connect{
+        order: 3;
+    }
+
+    .header{
+       justify-content: center;
+    }
+
+    .logo {
+        order: 1;
+    }
+
+    .title-logo{
+        display: none;
+    }
+
+    .links {
+        display: none;
+        position: relative;
+        text-align: center;
+        order: 2;
+        min-width: 50px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .title-header{
+        font-size: 1rem;
+    }
+
+    .nav-menu-select{
+        margin-top: 10px;
+        order : 3;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .button-connect-wallet{
+        order: 4;
+        width: 100px;
+    }
+    .links li{
+        padding-bottom: 10px;
+        display: block;
+    }
+
+}
+
+.hamburger {
+    width: 25px;
+    height: 2px;
+    background-color: currentColor;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-4px, 7px);
+    transform: rotate(-45deg) translate(-4px, 7px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-4px, -7px);
+    transform: rotate(45deg) translate(-4px, -7px);
+}

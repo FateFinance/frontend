@@ -1,0 +1,111 @@
+.MainPageNotFound{
+    width: 100%;
+    height:inherit;
+    flex-grow: 1;
+    order: 2;
+}
+
+.Title1, .Title2, .Title3{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    z-index: 10;
+}
+
+.Title1{
+    margin-top: 10%;
+    font-size: 4rem;
+    padding-bottom: 10vh;
+}
+
+.ellipse7{
+    position: absolute;
+    width: 47%;
+    height: 35%;
+    left: 14%;
+    top: 21%;
+
+    background: #7000FF;
+    filter: blur(200px);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+.ellipse8{
+    position: absolute;
+    width: 47%;
+    height: 35%;
+    left: 40%;
+    top: 21%;
+
+    background: #FF00C7;
+    filter: blur(200px);
+    opacity: 0.20;
+    z-index: 0;
+}
+
+.ellipse9{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    left: 15%;
+    top: 30%;
+    opacity: 0.30;
+
+    background: linear-gradient(270.77deg, #7000FF 26.72%, #AE2727 73.69%);
+    filter: blur(170px);
+    z-index: 1;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1000px) {
+
+    .Title1, .Title2, .Title3{
+        text-align: center;
+        color: white;
+        font-weight: 800;
+        z-index: 2;
+        font-size: 1.2rem;
+    }
+
+    .Title1{
+        margin-top: 20%;
+        font-size: 1.5rem;
+        padding-bottom: 5vh;
+    }
+
+    .ellipse7{
+        position: absolute;
+        width: 47%;
+        height: 30%;
+        left: 14%;
+        top: 5%;
+
+        background: #7000FF;
+        filter: blur(200px);
+        opacity: 0.4;
+    }
+
+    .ellipse8{
+        position: absolute;
+        width: 47%;
+        height: 30%;
+        left: 40%;
+        top: 15%;
+
+        background: #FF00C7;
+        filter: blur(200px);
+        opacity: 0.20;
+    }
+
+    .ellipse9{
+        position: absolute;
+        width: 70%;
+        height: 50%;
+        left: 15%;
+        top: 15%;
+
+        background: linear-gradient(270.77deg, #7000FF 26.72%, #AE2727 73.69%);
+        filter: blur(170px);
+    }
+}

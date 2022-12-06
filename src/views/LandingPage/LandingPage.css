@@ -1,0 +1,29 @@
+.LandingPage {
+  background : #11011E;
+  font-family: Unbounded,sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  display: flex;
+  flex-direction: column;
+  font-feature-settings: 'salt' on, 'liga' off;
+  flex-grow: 1;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover{
+  color: white;
+  font-weight: 800;
+}
+
+
+
+
+
+
+
+
